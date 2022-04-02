@@ -93,6 +93,7 @@ span {
   padding-top: 40px;
   padding-bottom: 40px;
   margin-top: 60px;
+  width: 100%;
 }
 .section2-title {
   font-family: "Gochi Hand", cursive;
@@ -108,12 +109,11 @@ span {
 }
 .section2-item {
   display: flex;
-  margin: 40px auto 0px;
-  width: 65%;
-}
+  margin-top: 40px;
+  width: 100%;
+  justify-content: space-evenly;}
 .section2-img {
-  width: 40%;
-  margin-left: 100px;
+  width: 30%;
 }
 .section2-item-text {
   padding-bottom: 6px;
@@ -171,27 +171,34 @@ span {
   padding-top: 15px;
   padding-left: 5px;
 }
-.a1{font-size: 100%;}
+.a1{font-size: 1.3vw;
+margin: 0 auto;}
 .ppp1 {
   position: absolute;
   left: 120px;
   bottom: 30px;
   color: #ddd;
+  font-size: 1.2vw;
 }
 .ppp2 {
   position: absolute;
   left: 120px;
   bottom: 30px;
   color: #ddd;
+  font-size: 1.2vw;
 }
 .section3-item-text {
   padding-left: 30px;
   color: #ddd;
 }
 .section3-items-title {
-  padding-left: 185px;
+  padding-left: 39%;
   color: #ddd;
 }
+.section3-item-title{margin-top: 17px;}
+.section3-text{margin-top: 10px;}
+.section3-items-title{margin-top: 10px;}
+.section3-item-text{margin-top: 10px;}
 table {
   width: 70%;
   
@@ -320,13 +327,13 @@ table th {
 }
 .section4-cards {
   display: flex;
-  width: 80%;
+  width: 80% ;
   margin: 0 auto;
   
 }
 
 .section4-card {
-  width: 27%;
+  width: 100%;
   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
   padding-bottom: 20px;
   border-radius: 20px;
@@ -349,20 +356,25 @@ table th {
   padding: 12px 20px;
   border-radius: 20px 0 0 0;
 }
+.e{text-align: center;
+}
 .section4-item-text {
-  padding-left: 7px;
   padding-top: 20px;
-  margin: 0 auto;
-  width: 90%;
+  font-size: 80%; 
+  display: inline-block;
+  text-align: left;
+
 }
 .section4-text2 {
   display: flex;
-  width: 90%;
-  margin: 30px auto 0px;
+  width: 100%;
+  margin-top: 30px;
+  font-size: 75%;
+  justify-content: center;
 }
 .ddd {
-  padding-left: 30px;
   display: inline-block;
+  margin-left: 10%;
 }
 .titlee {
   position: absolute;
